@@ -1,0 +1,116 @@
+html {
+    font-family: sans-serif;
+}
+nav,
+.link-nav {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    width: 100%;
+}
+
+ul,
+li {
+    display: flex;
+    margin-right: 5%;
+
+}
+
+#section-central {
+    text-align: center;
+}
+
+.img-icon, .icon-footer {
+    filter: invert(100%);
+}
+
+header {
+   
+    background-image: url(../img/bg-hero.png);
+    padding-bottom: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+    padding-top: -10px;
+    margin-bottom: 5%;
+}
+#div-n{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+header h3 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+header h1 {
+    font-size: 50px;
+}
+h1, h3{
+    margin: 0;
+    padding-top: 0px;
+}
+
+#Proxima-Charla {
+    background: #a4452c;
+    padding: 50px;
+    color: white;
+}
+
+#Proxima-Charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+#section-eventos{
+    display: flex; 
+    justify-content: center;
+    padding: 5%; 
+}
+
+.evento {
+    font-weight: bolder;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+#titulo-eventos{
+    text-align: center;
+}
+footer {
+    background-color: #000000;
+}
+#footer-links{
+    display: flex; 
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.icon-footer, .link-icon{
+    margin-left: 10px;
+}
+#prf-footer{
+    font-size: small;
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
